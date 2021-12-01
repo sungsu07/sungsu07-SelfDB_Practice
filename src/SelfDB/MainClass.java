@@ -41,7 +41,10 @@ public class MainClass {
 		dto.setOpeing(d);
 		dto.setClosing(e);
 		
+		DBdao dao = new DBdao();
+		dao.insertCoinDB(dto);
+		
 		// View All Data
-		DBdao.selectAll();
+		dao.selectAll();
 	}
 }

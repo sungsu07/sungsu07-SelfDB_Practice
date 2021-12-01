@@ -52,16 +52,14 @@ public class DBdao {
             pstmt.setInt(3, dto.getDate());
             pstmt.setDouble(4, dto.getOpeing());
             pstmt.setDouble(5, dto.getClosing());
-
             
             int result = pstmt.executeUpdate();
             if(result==1) {
                 System.out.println("데이터 삽입 성공!");
-                
             }
             
         } catch (Exception e) {
-            System.out.println("naver_info 데이터 삽입 실패!");
+            System.out.println("데이터 삽입 실패!");
         }    finally {
             try {
                 if(pstmt!=null && !pstmt.isClosed()) {

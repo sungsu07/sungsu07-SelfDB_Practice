@@ -38,7 +38,7 @@ public class MainClass {
 		dto.setExchange(a);
 		dto.setCoinname(b);
 		dto.setDate(c);
-		dto.setOpeing(d);
+		dto.setOpening(d);
 		dto.setClosing(e);
 		
 		DBdao dao = new DBdao();

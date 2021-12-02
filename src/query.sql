@@ -3,7 +3,7 @@ CREATE TABLE coin_price(
 `exchange` VARCHAR(50) NOT NULL,
 `name` VARCHAR(100) NOT NULL,
 `date` INT(11) NOT NULL,
-`opeing` DOUBLE NOT NULL,
+`opening` DOUBLE NOT NULL,
 `closing` DOUBLE NOT NULL,
 PRIMARY KEY(`num`) USING BTREE 
 )

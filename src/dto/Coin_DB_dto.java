@@ -4,7 +4,7 @@ public class Coin_DB_dto {
 	private String exchange;
 	private String coinname;
 	private int date;
-	private Double opeing;
+	private Double opening;
 	private Double closing;
 	
 	public String getExchange() {
@@ -25,11 +25,11 @@ public class Coin_DB_dto {
 	public void setDate(int date) {
 		this.date = date;
 	}
-	public Double getOpeing() {
-		return opeing;
+	public Double getOpening() {
+		return opening;
 	}
-	public void setOpeing(Double opeing) {
-		this.opeing = opeing;
+	public void setOpening(Double opening) {
+		this.opening = opening;
 	}
 	public Double getClosing() {
 		return closing;
